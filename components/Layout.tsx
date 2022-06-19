@@ -9,20 +9,21 @@ type Props = {
 const Layout = ({ children, title = "This is the default title" }: Props) => (
   <div className="relative min-h-screen flex flex-col justify-center items-center bg-hero bg-cover">
     <Head>
-      <title>{title} | Themeptation</title>
+      <title>{title} | InitZero</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
         name="description"
-        content="Slioth - is a One Page Saas Lading Page build with Tailwind CSS and NextJs created by themeptation"
+        content="Welcome to Init Zero, your number one source for business solutions. We're dedicated to providing you the best of technology driven business solution, with a focus on dependability. "
       />
-      <meta property="og:title" content={`${title} | Themeptation`} />
+      <meta property="og:title" content={`${title} | InitZero`} />
       <meta
         property="og:description"
-        content="Slioth - is a One Page Saas Lading Page build with Tailwind CSS and NextJs created by themeptation"
+        content="Welcome to Init Zero, your number one source for business solutions. We're dedicated to providing you the best of technology driven business solution, with a focus on dependability. "
       />
-      <meta property="og:url" content="https://slioth.themepttation.net/" />
-      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://izero.dev" />
+      <meta property="og:type" content="Welcome to Init Zero, your number one source for business solutions. We're dedicated to providing you the best of technology driven business solution, with a focus on dependability. " />
+      <link rel="icon" href="/images/fav.png" />
     </Head>
     {children}
   </div>
